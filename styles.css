@@ -220,6 +220,16 @@
     border: solid 1px black;
 }
 
+.internalcontainer-notices{
+  flex: 1;
+  background: #e4e1ce;
+  padding: 30px;
+  margin: 3px;
+  min-width: 300px;
+  min-height: 150px;
+  border: solid 1px black;
+}
+
 .internalcontainer-hero {
   flex: 1;
     background: #e4e1ce;

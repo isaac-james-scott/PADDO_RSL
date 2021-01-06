@@ -37,8 +37,8 @@
   }
 
   .full-page{
-    min-height: 600px;
-    padding-bottom: 50px;
+    min-height: 500px;
+    padding-bottom: 2px;
   }
 
   hr {
@@ -69,7 +69,7 @@
   }
 
   h1 {
-    padding: 50px 0 50px 0 ;
+    padding: 10px 0 50px 0 ;
   }
 
   h2 {
@@ -173,6 +173,16 @@
   text-align: center;
 }
 
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .holdingcontainer-bistro {
     width: 80%;
     height: 80%;
@@ -199,6 +209,14 @@
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.member-button {
+  background-color:#eeece2;
+  border: solid 1px black;
+  padding: 5px 40px 5px 40px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .menu-button {
@@ -332,6 +350,13 @@ a:hover {
   min-width: 300px;
 }
 
+.full-page-image {
+  height: 100vh;
+  background-image: url("/Images/PADDO_FACADE.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .contact {
@@ -414,6 +439,7 @@ a:hover {
 @media screen and (max-width: 3000px){
     iframe {
         min-height: 600px;
+     
     }
 
     .holdingcontainer-home {

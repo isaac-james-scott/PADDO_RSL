@@ -10,7 +10,7 @@
   }
 
   body {
-    background-color: #e9e5c8;
+    background-color: #faebd7;
   
   }
   
@@ -27,14 +27,13 @@
     position: sticky;
     box-sizing: border-box;
     top: 0;
-    background-color: #e9e5c8;
+    background-color: antiquewhite;
   }
 
   .page {
       min-height: 600px;
       padding-bottom: 50px;
       padding: 5%;
-      
   }
 
   .full-page{
@@ -204,7 +203,7 @@
 }
 
 .tickets-button {
-    background-color:#eeece2;
+    background-color:#f7eee3;
     border: solid 1px black;
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
@@ -212,7 +211,7 @@
 }
 
 .member-button {
-  background-color:#eeece2;
+  background-color:#f7eee3;
   border: solid 1px black;
   padding: 5px 40px 5px 40px;
   border-radius: 5px;
@@ -220,7 +219,7 @@
 }
 
 .menu-button {
-  background-color:#eeece2;
+  background-color:#f7eee3;
   border: solid 1px black;
   padding: 5px 40px 5px 40px;
   border-radius: 5px;
@@ -230,7 +229,7 @@
 
 .internalcontainerL{
     flex: 1;
-    background: #e4e1ce;
+    background: #f7eee3;
     padding: 30px;
     margin: 3px;
     min-width: 300px;
@@ -240,7 +239,7 @@
 
 .internalcontainer-notices{
   flex: 1;
-  background: #e4e1ce;
+  background: #f7eee3;
   padding: 30px;
   margin: 3px;
   min-width: 300px;
@@ -269,7 +268,7 @@ a:hover {
 
 .internalcontainerM{
     flex: 1;
-    background: #e4e1ce;
+    background: #f7eee3;
     padding: 30px;
     margin: 3px;
     min-width: 300px;
@@ -278,14 +277,14 @@ a:hover {
 
 .internalcontainer-contact-details{
   flex: 1;
-  background: #e4e1ce;
+  background: #f7eee3;
   padding: 30px;
   min-width: 300px;
 }
 
 .internalcontainer-acknowledgment{
   flex: 1;
-  background: #e4e1ce;
+  background: #f7eee3;
   padding: 5px;
   margin: 3px;
   min-width: 300px;
@@ -314,6 +313,7 @@ a:hover {
   padding: 5px;
   min-width: 300px;
   min-height: 300px;
+  
 }
 
 .internalcontainerR{
@@ -341,6 +341,7 @@ a:hover {
 .hero-sub-images {
   object-fit: contain;
   padding-top: 10px;
+
 }
 
 .internalcontainer-contact iframe{
@@ -373,7 +374,7 @@ a:hover {
 
 .full-page-image {
   height: 100vh;
-  background-image: url("/Images/PADDO_FACADE.jpg");
+  background-image: url("/Images/PADDO_FACADE.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -492,8 +493,12 @@ SOCIAL MEDIA
     }
 
     .home-header {
-      padding-top: 40px;
+      padding: 40px;
     }
+
+    /*.page {
+      padding: 0%;
+    }*/
 
 }
 

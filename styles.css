@@ -27,7 +27,7 @@
     position: sticky;
     box-sizing: border-box;
     top: 0;
-    background-color: antiquewhite;
+    background-color: #f7eee3;
   }
 
   .page {
@@ -81,7 +81,8 @@
   }
 
   h3 {
-      text-align: center;
+      
+      align-content: space-between;
       padding-top: 5px;
       padding-bottom: 30px;  
   }
@@ -162,6 +163,7 @@
     flex-direction: row;
     margin: 0 auto;
     text-align: center;
+   
 }
 
 .holdingcontainer-home{
@@ -203,27 +205,39 @@
 }
 
 .tickets-button {
-    background-color:#f7eee3;
-    border: solid 1px black;
+    background-color:#faebd7;
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
     text-decoration: none;
 }
 
+.tickets-button:hover {
+  background-color: hsla(247, 14%, 76%, 0.87);
+  color: #03181f;
+}
+
 .member-button {
-  background-color:#f7eee3;
-  border: solid 1px black;
-  padding: 5px 40px 5px 40px;
+  background-color:#faebd7;
+  padding: 20px 60px 20px 60px;
   border-radius: 5px;
   text-decoration: none;
 }
 
+.member-button:hover {
+  background-color: hsla(247, 14%, 76%, 0.87);
+  color: #03181f;
+}
+
 .menu-button {
   background-color:#f7eee3;
-  border: solid 1px black;
-  padding: 5px 40px 5px 40px;
+  padding: 20px 60px 20px 60px;
   border-radius: 5px;
   text-decoration: none;
+}
+
+.menu-button:hover {
+  background-color: hsla(247, 14%, 76%, 0.87);
+  color: #03181f;
 }
 
 
@@ -323,6 +337,20 @@ a:hover {
     border: solid 1px black;
 }
 
+footer {
+  background-color: #f7eee3;
+  max-height: 200px;
+  padding: 30px 5%;
+}
+
+.copyright {
+text-align: right;
+}
+
+.my_site_link {
+text-align: left;
+}
+
 .internalcontainerfooterL{
   flex: 1;
   padding: 10px;
@@ -356,6 +384,7 @@ a:hover {
   min-height: 300px;
   padding-right: 30px;
   padding-bottom: 30px; 
+  
 }
 
 .internalcontainerF2 {
@@ -449,6 +478,11 @@ SOCIAL MEDIA
       padding-bottom: 10px;
     }
 
+    .member-button {
+      padding: 15px 30px 15px 30px;
+      padding-bottom: 10px;
+    }
+
    
 
     .function-text,
@@ -527,19 +561,7 @@ SOCIAL MEDIA
 
 
 
-footer {
-    max-height: 100px;
-    padding: 30px 5%;
-  
-    }
 
-.copyright {
-  text-align: right;
-}
-
-.my_site_link {
-  text-align: left;
-}
 
 
   
@@ -581,7 +603,7 @@ footer {
   }
   
   .cta:hover {
-    background-color: rgba(187, 185, 202, 0.87);
+    background-color: hsla(247, 14%, 76%, 0.87);
   }
 
 
